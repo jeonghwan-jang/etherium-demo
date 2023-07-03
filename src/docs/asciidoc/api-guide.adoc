@@ -1,0 +1,25 @@
+= API 가이드 문서
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toc-title: Index
+:toclevels: 3
+:sectlinks:
+:hardbreaks:
+
+NOTE: 회원 API를 제외하고는 모두 Bearer {accessToken}을 필요로 합니다.
+로그인 API를 통해 accessToken을 부여받아 테스트를 진행해주세요.
+
+== 회원 API
+
+include::_member.adoc[]
+
+== 지갑 API
+
+include::_wallet.adoc[]
+
+== 거래 API
+
+include::_trade.adoc[]
+
